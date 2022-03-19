@@ -5,10 +5,28 @@
     <title></title>
 </head>
 <body>
+<form action="">
+    <label for="">Họ và tên</label>
+    <input type="text" name="" id="name">
+    <label for="">sdt</label>
+    <input type="number" name="" id="number">
+    <br>
+    <label for="">Giới </label>tính
+    <input type="radio" value="Nam" name="gen" id="gender">Nam
+    <input type="radio" value="N" name="gen" id="gender2">Nữ
+    <br>
+    <button type="button" onclick="display();">Kiểm tra</button>
+
+</form>
  <script>
-   let a = prompt("nhap ");
-   document.write(a++);
-   console.log(a);
+   function display() {
+       let dauvao = document.getElementById('name').value;
+       let sdt = document.getElementById('number').value;
+       let gen = document.getElementById('gender').value;
+       let gen2 = document.getElementById('gender2').value;
+       document.write("Họ và tên:" + dauvao +" "+"Giới tính:"+gen+ " " + "Số điện thoại:"+sdt);
+   }
+
  </script>
 </body>
 </html>

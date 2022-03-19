@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <input type="number" name="" id="num1">
+    <input type="number" name="" id="num2">
+    <br>
+    <button type="button" onclick="sum()">Plus(+)</button>
+    <button type="button" onclick="tru()">Subtraction(-)</button>
+    <button type="button" onclick="nhan()">multiplication(*)</button>
+    <button type="button" onclick="chia()">division(/)</button>
+</form>
+<div id="result"></div>
+<script>
+    function sum(){
+        let a = document.getElementById("num1").value;
+        let b = document.getElementById("num2").value;
+
+        // Kiểm tra dữ liệu
+        if (a == "" || b == ""){
+            alert("Vui lòng nhập vào hai số");
+            return false;
+        }
+
+        // Ép kiểu dữ liệu
+        a = parseInt(a)
+        b = parseInt(b)
+
+        if (isNaN(a) || isNaN(b)){
+            alert("Bạn phải nhập vào hai số");
+            return false;
+        }
+
+        let sum = a + b;
+
+        document.getElementById('result').innerHTML = sum;
+    }
+
+</script>
+</body>
+</html>
