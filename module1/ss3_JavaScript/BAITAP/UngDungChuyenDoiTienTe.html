@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+    table{
+        margin: 0 auto;
+    }
+    form{
+        text-align: center;
+        margin: 0 auto;
+        width: 600px;
+        border: 1px solid #000;
+        min-height: 200px;
+        background-color: antiquewhite;
+    }
+    #result{
+        text-align: center;
+    }
+</style>
+<body>
+<form action="">
+    <h1>Đổi tiền tệ</h1>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="" id="amount">
+            </td>
+            <td>
+                <select name="" id="vn">
+                    <option value="a">VietNam</option>
+                    <option value="b">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="usa">
+                    <option value="b">USD</option>
+                    <option value="a">VietNam</option>
+                </select>
+            </td>
+            <td>
+                <button style="background-color: cornflowerblue" type="button" onclick="display();">
+                    Convert
+                </button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <p style="text-align: right;bottom: 0">Author :Thái Quang Huy Hoàng </p>
+</form>
+
+<div id="result"></div>
+
+<script>
+   function  display() {
+            let dauvao = document.getElementById('amount').value;
+            let select1 = document.getElementById('vn').value;
+            let select2 = document.getElementById('usa').value;
+            if (select1==select2){
+                alert(dauvao);
+            }
+            if (select1=="a" && select2=="b"){
+                alert(dauvao/22000 +" $dola");
+            }
+            if(select1=="b" && select2=="a"){
+                alert(dauvao*22000+" $VND");
+            }
+
+
+   }
+</script>
+</body>
+</html>
