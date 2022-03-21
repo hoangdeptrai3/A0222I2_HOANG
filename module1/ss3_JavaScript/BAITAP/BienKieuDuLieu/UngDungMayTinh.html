@@ -4,17 +4,61 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    form{
+        height: 200px;
+        border: 1px solid #000;
+        width: 500px;
+        text-align: center;
+        margin-top: 50px;
+        background-color: cornflowerblue;
+    }
+    .container{
+        margin: 0 auto;
+        width: 500px;
+    }
+    .about{
+        margin-top: 70px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    button:hover{
+        background-color: brown;
+        color: white;
+    }
+    input:hover{
+        background-color: antiquewhite;
+        color: black;
+    }
+    #result{
+        text-align: center;
+    }
+    h1{
+        color: green;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+
+
+</style>
 <body>
-<form action="">
-    <input type="number" name="" id="num1">
-    <input type="number" name="" id="num2">
-    <br>
-    <button type="button" onclick="sum()">Plus(+)</button>
-    <button type="button" onclick="tru()">Subtraction(-)</button>
-    <button type="button" onclick="nhan()">multiplication(*)</button>
-    <button type="button" onclick="chia()">division(/)</button>
-</form>
-<div id="result"></div>
+<div class="container">
+    <form action="">
+        <h1>MÁY TÍNH</h1>
+        <div class="about">
+            <input type="number" name="" id="num1">
+            <input type="number" name="" id="num2">
+            <br>
+            <button type="button" onclick="sum()">Plus(+)</button>
+            <button type="button" onclick="tru()">Subtraction(-)</button>
+            <button type="button" onclick="nhan()">multiplication(*)</button>
+            <button type="button" onclick="chia()">division(/)</button>
+        </div>
+    </form>
+</div>
+<div id="result">Kết quả</div>
 <script>
     function sum(){
         let a = document.getElementById("num1").value;
@@ -38,6 +82,45 @@
         let sum = a + b;
 
         document.getElementById('result').innerHTML = sum;
+    }
+    function tru(){
+        let a = document.getElementById('num1').value;
+        let b = document.getElementById('num2').value;
+        if(a == "" || b == ""){
+            alert("vui lòng nhập 2 số ");
+            return false;
+        }
+        a = Number(a);
+        b = Number(b);
+        let tru = a - b;
+        document.getElementById('result').innerHTML= tru;
+
+    }
+    function nhan() {
+        let a = document.getElementById('num1').value;
+        let b = document.getElementById('num2').value;
+        if(a == "" || b == ""){
+            alert('vui long nhap 2 so');
+            return false;
+        }
+        a = Number(a);
+        b = Number(b);
+        let nhan = a * b;
+        document.getElementById('result').innerHTML=nhan;
+
+    }
+    function chia() {
+        let a = document.getElementById('num1').value;
+        let b = document.getElementById('num2').value;
+        if(a == "" || b == ""){
+            alert('vui long nhap 2 so');
+            return false;
+        }
+        a = Number(a);
+        b = Number(b);
+        let chia = a / b;
+        document.getElementById('result').innerHTML=chia;
+
     }
 
 </script>
