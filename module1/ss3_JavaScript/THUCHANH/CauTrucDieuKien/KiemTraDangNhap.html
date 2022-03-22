@@ -6,21 +6,21 @@
 </head>
 <body>
 <script>
-    let userName = prompt("Who's there?", '');
-
-    if (userName == 'admin') {
-       
-    } else if (userName == null) {
-        alert('Canceled');
-    } else {
+    let username = prompt("who are you?");
+    if(username == "admin"){
+        alert("vui lòng nhập password");
+    }else if(username == null ){
+        alert("canceld");
+    }else{
         alert("I don't know you");
     }
-    let pass = prompt('Password?', '');
-    if (pass == 'TheMaster') {
-        alert('Welcome!');
-    } else if (pass == null) {
-        alert('Canceled.');
-    } else {
+
+    let pass = prompt("password ");
+    if(pass == "TheMaster"){
+        alert('welcome');
+    }else if(pass == null){
+        alert('Canceled');
+    }else{
         alert('Wrong password');
     }
 
