@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    >50k = call free 3 days , >100k = call free 7 days , >300k = call free 30 days-->
+<script>
+    let Cuoc = prompt("mời nhập gói cước :");
+    Cuoc = parseInt(Cuoc);
+    if(Cuoc == 300){
+        alert("call free 30 days");
+    }else if(Cuoc == 100){
+        alert("call free 7 days")
+    }else if(Cuoc == 50){
+        alert("call free 3 days")
+    }else{
+        alert("gói cước không hợp lệ");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('nhap diem bai kiem tra ');
+    let b = prompt('nhap diem giua ky ');
+    let c = prompt('nhap diem cuoi ky ');
+    // diem tb>8 = gioi,diem tb>6.5=kha,diem tb>5=tb,con lai yeu
+    a = parseInt(a);
+    b  = parseInt(b);
+    c  = parseInt(c);
+    let diemTb = (a + b + c)/3 ;
+    if (diemTb > 8){
+        alert(diemTb + " gioi");
+    }else if(diemTb > 6.5){
+        alert("kha");
+    }else if(diemTb >5){
+        alert(diemTb + " trung binh");
+    }else {
+        alert(diemTb + " yeu");
+    }
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            border: 1px solid #000000;
+        }
+        p{
+            font-weight: bold;
+        }
+        input{
+            background-color: darkorange;
+        }
+        input:hover{
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <img id = "myImage" src="./img/football.jpg" alt="">
+    <p>Click button below to move the image to right</p>
+    <input type="button" onclick="moveRight()" value="Click me">
+    <script>
+        let imgObj = null;
+        function init() {
+            imgObj = document.getElementById('myImage');
+            imgObj.style.position = 'relative';
+            imgObj.style.left = '0px';
+        }
+        function moveRight() {
+            imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
+        }
+        window.onload = init;
+
+    </script>
+</form>
+</body>
+</html>
