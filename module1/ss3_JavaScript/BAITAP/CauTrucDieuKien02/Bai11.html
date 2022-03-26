@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // thue thu nhap ca nhan là 10% tu nguon thu nhap
+    let thuNhap = parseInt(prompt("THu nhập của bạn là bao nhiêu "));
+    let thueThuNhapCaNhan1 = thuNhap / 3;
+    thueThuNhapCaNhan1 = parseInt(thueThuNhapCaNhan1);
+    let thueThuNhapCaNhan2 = thuNhap / 5;
+    thueThuNhapCaNhan2 = parseInt(thueThuNhapCaNhan2)
+    let thueThuNhapCaNhan3 = thuNhap / 7;
+    thueThuNhapCaNhan3 = parseInt(thueThuNhapCaNhan3);
+    if(thuNhap >= 50000000){
+        alert("Thuế thu nhập cá nhân của bạn là " + thueThuNhapCaNhan1);
+    }else if(thuNhap >= 20000000){
+        alert("Thuế thu nhập cá nhân của bạn là " + thueThuNhapCaNhan2);
+    }else if(thuNhap >= 10000000){
+        alert("Thuế thu nhập cá nhân của bạn là " + thueThuNhapCaNhan3);
+    }
+</script>
+</body>
+</html>
