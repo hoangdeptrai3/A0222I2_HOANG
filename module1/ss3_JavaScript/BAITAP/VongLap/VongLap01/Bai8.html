@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canDuoi = parseInt(prompt("Nhap can duoi: ")); //2
+    let canTren = parseInt(prompt("Nhap can tren: ")); //5
+
+    /*
+    * Math.random()
+    * 0 ~ 0.00001
+    * 1 ~ 0.999
+    * -----
+    * (canTren - canDuoi + 1) = 4
+    * -----
+    * Math.random() * (canTren - canDuoi + 1)
+    * 0
+    * 4
+    * -----
+    * Math.floor(Math.random() * (canTren - canDuoi + 1) + canDuoi)
+    * 2 //
+    * 6 //5.99
+    * */
+    let random = Math.floor(Math.random() * (canTren - canDuoi + 1) + canDuoi);
+    let dem = 0;
+    do {
+        let a = parseInt(prompt("Nhap so ma ban doan: "));
+        if (random == a) {
+            alert("Chuc mung ban!");
+            break
+        } else if (random > a) {
+            alert("so ban nhap nho hơn.");
+            dem++;
+        } else {
+            alert("so ban nhap lon hơn.");
+            dem++;
+        }
+        if (dem >= 3){
+            alert("Ban da het luot choi.")
+            break
+        }
+    } while (true);
+
+</script>
+</body>
+</html>
