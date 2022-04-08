@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <label for="">ENGLISH</label>
+    <input type="text" name="" id="input">
+    <button type="button" onclick="display()">Search</button>
+    <p id="result"></p>
+</form>
+<script>
+    let arrEng = ['hello','people','mother'];
+    let arrVN  = ['xin chào','người','mẹ'];
+    function display() {
+        let result = "";
+        let keyword = document.getElementById('input').value;
+        let index = arrEng.indexOf(keyword);
+        if (index != -1){
+            result = arrVN[index];
+        }else {
+            result = "not found";
+        }
+        document.getElementById('result').innerHTML=result;
+    }
+    
+</script>
+</body>
+</html>
