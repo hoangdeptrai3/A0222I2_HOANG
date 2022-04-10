@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function daoMang(arr) {
+        arr.reverse();
+    }
+    let arr = [];
+    for (let i = 0 ; i < 5; i++){
+        arr.push(parseInt(prompt("nhập phần tử thứ "+i)));
+        // arr[i] = prompt("nhap "+i);
+    }
+    daoMang(arr);
+    document.write(arr);
+</script>
+</body>
+</html>

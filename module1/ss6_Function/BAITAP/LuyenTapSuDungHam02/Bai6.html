@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkInteger(a) {
+        if (a > 0){
+            if (a % 2 == 0 || a % 2 == 1){
+                return true;
+            }
+        }
+        return false;
+    }
+    let b = parseInt(prompt("nhap "));
+    let c = checkInteger(b);
+    document.write(c);
+</script>
+</body>
+</html>
