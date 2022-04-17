@@ -6,14 +6,16 @@
 </head>
 <body>
 <script>
-   function sum(a,b){
-        let sum1 = a + b;
-        document.write(sum1 + "<br>" );
-       return sum1;
-   }
-   let a = 5;
-   let b = 5;
-
+    let persion = {
+        name : 'Thái Quang Huy Hoàng' ,
+        age : 21 ,
+        mydream : 'developer' ,
+        a : function () {
+            document.write("My information :" +"<br>"+ "Full name :" +this.name+"<br>" + "age :"+this.age+"<br>"+
+            "My dream :" +this.mydream)
+        }
+    }
+    persion.a();
 </script>
 </body>
 </html>

@@ -6,13 +6,27 @@
 </head>
 <body>
 <script>
-for (let i = 0 ; i < 10 ; i++){
-    for (let j = 0 ; j < i ; j++){
-        document.write(j);
+function checkArr(kyTu,mang) {
+    let dem = 0;
+    for (let i = 0; i < arr.length;i++){
+        if (kyTu == mang[i]){
+            dem++;
+        }
     }
-    document.write("<br>")
+    if (dem > 0){
+        return dem;
+    }
+    return -1
 }
-
+    let arr = ['a','b','c','d',''];
+    let charater = prompt("enter the desired character");
+    document.write("Mảng gồm ["+arr+"]<br>")
+    let checkMang = checkArr(charater,arr);
+    if (checkMang > 0){
+    document.write("có " +checkMang+ " " + charater + " trong mang");
+    }else {
+    document.write("ko co")
+}
 </script>
 </body>
 </html>
