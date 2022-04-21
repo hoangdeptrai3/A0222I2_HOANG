@@ -11,14 +11,18 @@
             this.radius = radius;
             this.color = color;
         }
-
+        getRadius(){
+            return this.radius;
+        }
+        setRadius(newRadius){
+            this.radius = newRadius;
+        }
         Area(){
-            document.write("radius :2, "  +" Area = "+3.14 * this.radius * this.radius +"<br> " + "color "+this.color)
+            document.write("radius :3, "  +" Area = "+3.14 * this.radius * this.radius +"<br> " + "color "+this.color)
         }
     }
-    let a = new Circle(2,'blue');
-    a.radius = 2;
-    a.color = 'blue';
+    let a = new Circle(1,'blue');
+    a.setRadius(3);
     a.Area();
 </script>
 </body>

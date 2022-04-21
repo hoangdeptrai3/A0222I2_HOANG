@@ -12,6 +12,12 @@
            this.month = month;
            this.year = year;
        }
+       getday(){
+           return this.day;
+       }
+       setday(newDay){
+           this.day = newDay;
+       }
 
        display(){
            document.write(this.day + '/' + this.month + '/' +this.year);
@@ -19,9 +25,6 @@
 
    }
    let Date1 = new Date(2,2,2007);
-   Date1.day = 2;
-   Date1.month = 2;
-   Date1.year = 2007;
    Date1.display();
 </script>
 </body>

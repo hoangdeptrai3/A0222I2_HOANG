@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" name="" id="input">
+<button type="button" onclick="display()" >Dịch</button>
+<div id="result"></div>
+<script>
+        let eng = ['hello','people','mother','name'];
+        let vn = ['xin chao' ,'người','mẹ','tên'];
+        function display() {
+            let result = "";
+            let input = document.getElementById('input').value;
+            let index = eng.indexOf(input);
+            if (index != -1){
+                result = vn[index];
+            }else{
+                result = "not found ....";
+            }
+
+            document.getElementById('result').innerText=result;
+        }
+
+</script>
+</body>
+</html>

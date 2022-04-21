@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature{
+        constructor(c,f,k) {
+            this.c = c;
+            this.f = f;
+            this.k = k;
+        }
+        CsangF() {
+            this.c =25;
+            this.f = (9*this.c)/5 + 32
+           document.write(" Từ 25C sang F = "+ this.f + "<br>");
+        }
+        CsangK(){
+            this.k = this.c + 273,15;
+            document.write("Từ 25C sang K = " + this.k);
+        }
+
+    }
+   let myTempera = new Temperature();
+    myTempera.CsangF();
+    myTempera.CsangK();
+</script>
+
+</body>
+</html>
