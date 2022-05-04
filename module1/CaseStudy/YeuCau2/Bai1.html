@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = parseInt(prompt("nhap so tien : "));
+    if (input < 7000000){
+        alert("thuế 5% , bạn phải đóng :"+(input*5)/100);
+    }else if(input <= 15000000){
+        alert("Thuế 10% ,bạn phải đóng :"+(input * 10)/100);
+    }else {
+
+            alert("bạn sẽ đóng thuế 20%,số tiền cần đóng  :"+ (input*20)/100);
+    }
+</script>
+</body>
+</html>

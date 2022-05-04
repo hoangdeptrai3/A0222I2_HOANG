@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <h1>Vui lòng chọn các nước uống bên dưới</h1>
+    <p>1 cafe</p>
+    <p>2 Cam vắt</p>
+    <p>3 nước ép cà rốt</p>
+    <p>4 nước ép cà chua</p>
+    <p>5 nước lọc</p>
+    <p>6 nước dừa</p>
+    <p>7 thoát gọi món</p>
+    <label for="">nhập STT đồ uống vào đây</label></br>
+    <input type="text" name="" id="textDrink">
+    <button type="button" onclick="choose()">Chọn</button>
+</form>
+<script>
+    function choose() {
+        let input = document.getElementById('textDrink').value;
+        let cafe = 20000;
+        let camvat = 10000;
+        let carot = 12000;
+        let cachua = 12000;
+        let nuocloc = 7000;
+        let nuocdua = 15000;
+        if (input == 1){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * cafe;
+
+        }
+        if (input == 2){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * camvat;
+            alert("Giá bạn phải trả :"+number);
+        }
+        if (input == 3){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * carot;
+            alert("Giá bạn phải trả :"+number);
+        }
+        if (input == 4){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * cachua;
+            alert("Giá bạn phải trả :"+number);
+        }
+        if (input == 5){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * nuocloc;
+            alert("Giá bạn phải trả :"+number);
+        }
+        if (input == 6){
+            let quantity = prompt("vui long nhap số lượng");
+            let number = quantity * nuocdua;
+            alert("Giá bạn phải trả :"+number);
+        }
+        if (input == 7){
+            alert("kết thúc quá trình đặt ");
+        }
+    }
+</script>
+</body>
+</html>

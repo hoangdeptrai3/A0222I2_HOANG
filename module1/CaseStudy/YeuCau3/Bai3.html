@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let arrA = [2,5,7];
+    let arrB = [4,2,7];
+    let max = arrA[0] / arrB[0];
+    let vitri = 0;
+    for (let i = 0 ;i < arrA.length;i++){
+        let num = arrA[i] / arrB[i];
+        if (num > max){
+            max = num;
+            vitri = i;
+        }
+    }
+    document.write("phân số lớn nhất là"+max+"ở vị trí số :" +vitri );
+
+</script>
+</body>
+</html>
