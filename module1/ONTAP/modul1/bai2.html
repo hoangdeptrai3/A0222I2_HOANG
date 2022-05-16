@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cặp số thân thiết</title>
+</head>
+<body>
+<script>
+    let m = prompt("enter a number ");
+    let n = prompt("enter a number ");
+    function  checkNumber(m) {
+        let t = 0;
+        for (let i = 0;i<m-1;i++)
+            if (m%i == 0)
+                t+=i;
+        return t;
+    }
+    if ((checkNumber(m)==n) && (checkNumber(n)==m)) {
+        document.write("true");
+    }else{
+        document.write("false");
+    }
+
+</script>
+</body>
+</html>

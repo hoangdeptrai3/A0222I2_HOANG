@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cặp số thân thiết</title>
+</head>
+<body>
+<script>
+   let m = parseInt(prompt("moi nhap so thu nhat "));
+   let n = parseInt(prompt("moi nhap so thu hai "));
+   function checkNumber(m) {
+       let sum = 0;
+       for (let i = 0;i < m  ; i++){
+           if (m % i == 0){
+               sum += i;
+           }
+
+       }
+       return sum;
+
+   }
+   if (checkNumber(m)==n && checkNumber(n) == m){
+       document.write("true");
+   }else {
+       document.write("false");
+   }
+
+</script>
+</body>
+</html>

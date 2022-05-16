@@ -12,9 +12,11 @@
     //     }
     //     document.write("<br>")
     // }
-    for (let i = 1 ; i<=4;i++){
-        for (let j =1 ; j <= 5;j++){
-            if (i == 1  || i == 4 || j==1  || j ==5){
+    let m = parseInt(prompt("moi nhap hang "));
+    let n = parseInt(prompt("moi nhap cot "));
+    for (let i = 1 ; i<=m;i++){
+        for (let j =1 ; j <= n;j++){
+            if (i == 1  || i == m || j==1  || j ==n){
                 document.write("*")
             }else {
                 document.write("&nbsp&nbsp")

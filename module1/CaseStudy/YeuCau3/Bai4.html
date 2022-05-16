@@ -6,16 +6,24 @@
 </head>
 <body>
 <script>
-    let arr = [0,1,2,3,4,5,6,7,8,9];
-    let arrChar = ["không", "một","hai","ba","bốn","năm","sáu","bảy","tám","chín","mười"]
-    let input = parseInt(prompt("enter a number : "));
-    let result ="";
-    for (let i = 0;i< arr.length;i++){
-        if (input == arr[i]){
-            result = arrChar[i];
-        }
+    // let arr = [0,1,2,3,4,5,6,7,8,9];
+    // let arrChar = ["không", "một","hai","ba","bốn","năm","sáu","bảy","tám","chín","mười"]
+    // let input = parseInt(prompt("enter a number : "));
+    // let result ="";
+    // for (let i = 0;i< arr.length;i++){
+    //     if (input == arr[i]){
+    //         result = arrChar[i];
+    //     }
+    // }
+    // document.write(result);
+
+    let strNumber = ["không", "một","hai","ba","bốn","năm","sáu","bảy","tám","chín","mười"];
+    let number = prompt("nhập số cần chuyển thành chuỗi ");
+    let result = "";
+    for (let i = 0 ; i< number.length ;i++){
+        result += strNumber[number[i]];
     }
-    document.write(result);
+    alert("số đã nhập : "+number + "\n chuyển thành chuỗi:" +result);
 
 
 

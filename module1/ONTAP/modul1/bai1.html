@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let index = 0;
+    let count = 0
+
+        let arr= [1,2,3,4,5,6];
+        // for (let i = 0;i<6;i++){
+        //     arr.push(prompt("nhap "));
+        // }
+
+        let result = [];
+        for (let i = 0 ; i<arr.length;i++){
+            if (arr[i] % 2 != 0 && i % 2 == 0 ){
+                result.push(arr[i]);
+                count++;
+            }
+        }
+        let sum = 0;
+        for (let i = 0 ; i< result.length;i++){
+            sum += result[i];
+        }
+        document.write("Các số lẻ tìm được trong mảng: "+result+"<br>"+ "có :"+count+" số lẻ ở vị trí chẵn"
+            +"<br>"+"TB cộng ="+sum/count);
+
+</script>
+</body>
+</html>

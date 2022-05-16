@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   //  function checkSNT(n) {
+   //      if (n < 2){
+   //          return false;
+   //      }else {
+   //          for (let i = 2 ; i<= Math.sqrt(n);i++){
+   //              if (n % i == 0)
+   //                  return false;
+   //          }
+   //      }
+   //      return true;
+   //  }
+   //  let arr = [1,2,3,4,5,6,7,9,10,11,15,20,21,23,24,25]
+   // for (let i = 0;i<arr.length;i++){
+   //     if (checkSNT(arr[i])==true){
+   //         document.write(arr[i] + " ");
+   //     }
+   // }
+   // let input = parseInt(prompt("nhap "));
+   function soNguyenTo(array) {
+       for(let i = 0; i < array.length; i++) {
+           if(array[i] < 2) {
+               array.splice(i, 1);
+           } else {
+               for(let j = 2; j <= Math.sqrt(array[i]); j++) {
+                   if(array[i] % j === 0) {
+                       array.splice(i, 1);
+                   }
+               }
+           }
+       }
+       return array;
+   }
+   let arr = [];
+   let n = parseInt(prompt("Nhập vào số phần tử: "));
+   for(let i = 0; i < n; i++) {
+       arr[i] = parseInt(prompt("Nhập số vào mảng: "));
+   }
+   document.write("Mảng bao gồm [" + arr + "] <br>");
+   let result = soNguyenTo(arr);
+   // for(let i = 0; i < n - 1; i++) {
+   //     for(let j = i + 1; j < n; j++) {
+   //         if(arr[i] > arr[j]) {
+   //             let temp = arr[i];
+   //             arr[i] = arr[j];
+   //             arr[j] = temp;
+   //         }
+   //     }
+   // }
+   result.sort(function (a,b) {
+       return a -b;
+
+   })
+   document.write("Các số nguyên tố [" + result + "] <br>");
+
+
+</script>
+</body>
+</html>

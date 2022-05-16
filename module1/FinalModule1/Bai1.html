@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+       // let arr = [1,2,3,4,5,6,7,8,12,10,11,12,13,14,15,20,22,27];
+       // let soChan = 0;
+       // let sole = 0;
+       // let sumChan = 0;
+       // let sumLe = 0;
+       //
+       // for (let i = 0;i<arr.length;i++){
+       //     if (arr[i] % 2 == 0 ){
+       //         soChan = arr[i];
+       //         sumChan += soChan;
+       //
+       //     }else {
+       //         sole = arr[i]
+       //         sumLe += sole;
+       //     }
+       // }
+       // document.write('Tổng các số chẵn  là:'+sumChan +"<br>"+ "Tổng các số lẻ là :" +sumLe +"<br>"+"hiệu tổng số chẵn và tổng số lẻ là :"+ (sumChan-sumLe));
+
+
+       let arrayNum = [];
+       let arrayNhoHon20 = [];
+       let n = parseInt(prompt("Nhập số n: "));
+       for(let i = 0; i < n; i++) {
+           arrayNum[i] = parseInt(prompt("Nhập số vào mảng là: "));
+       }
+       document.write("Mảng số [" + arrayNum + "] <br>");
+       for(let i = 0; i < arrayNum.length; i++) {
+           if(arrayNum[i] <= 20) {
+               arrayNhoHon20.push(arrayNum[i]);
+           }
+       }
+       document.write("Các phần tử <= 20 trong mảng [" + arrayNhoHon20 + "] <br> ");
+       let chan = 0;
+       let le = 0;
+       for(let i = 0; i < arrayNhoHon20.length; i++) {
+           if(arrayNhoHon20[i] % 2 === 0) {
+               chan += arrayNhoHon20[i];
+           } else {
+               le += arrayNhoHon20[i];
+           }
+       }
+       let result = chan - le;
+       document.write("Hiệu của tổng số chẳn và số lẻ là: " + result);
+
+</script>
+</body>
+</html>

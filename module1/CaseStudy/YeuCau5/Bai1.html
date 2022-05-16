@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let m = parseInt(prompt("nhập số hàng "));
+    let n = parseInt(prompt("nhập số cột "));
+    let total = 0;
+    let matrix = [];
+    for (let i = 0 ; i <m ; i++){
+        let row = [];
+        for (let j = 0 ; j <n ;j++){
+            row[j] = parseInt(prompt("nhập số vào ma trận :"));
+        }
+        matrix[i] = row;
+    }
+    for (let i = 0 ; i< matrix.length ; i ++){
+        for (let j = 0 ; j< matrix[i].length;j++){
+           if (matrix[i][j] % 2 == 0){
+               total += matrix[i][j];
+           }
+        }
+    }
+    console.table(matrix);
+    alert("tổng các số trong ma trận là : " +total);
+</script>
 </body>
 </html>

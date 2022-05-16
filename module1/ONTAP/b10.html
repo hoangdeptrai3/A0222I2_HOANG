@@ -5,9 +5,23 @@
     <title>Title</title>
 </head>
 <body>
+<input type="text" name="" id="input1">
+<select name="" id="text1">
+    <option value="a">VND</option>
+    <option value="b">ENG</option>
+</select>
+<select name="" id="text2">
+    <option value="b">ENG</option>
+    <option value="a">VND</option>
+</select>
 
+<button type="button" onclick="display()">Display</button><br>
+<div id="result"></div>
 <script>
-
+    function display() {
+        let a = document.getElementById("input1").value;
+        document.getElementById('result').innerText=a;
+    }
 </script>
 </body>
 </html>
