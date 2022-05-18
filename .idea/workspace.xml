@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/demo/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/demo/demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/HienThiLoiChao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/UngDungChuyenDoiTienTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/UngDungDocSoThanhChu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/BaiTap/dsd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/HienThiCacLoaiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/KtraSNT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/ThietKeMenuChoUngDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/TimUocChungLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/UngDugTinhTienLai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss1_IntroductionToJava/ThucHanh/TinhSoCanNangCuaCoThe.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss1_IntroductionToJava/ThucHanh/TinhSoCanNangCuaCoThe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/BaiTap/HienThiCacSoNguyenToNhoHon100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss2_Loop/BaiTap/dsd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss2_Loop/ThucHanh/KtraSNT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/ss2_Loop/BaiTap/dsd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/KtraSNT.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/BaiTap/KtraSntNhorHon20.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +53,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="TaoVaThaoTacVoiMang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/A0222I2_THAIQUANGHUYHOANG/module1/ss4_Array/Array1/THUCHANH/TaoVaThaoTacVoiMang.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,11 +147,12 @@
       <workItem from="1652841526331" duration="646000" />
       <workItem from="1652866259367" duration="198000" />
       <workItem from="1652866574552" duration="306000" />
+      <workItem from="1652875950272" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
