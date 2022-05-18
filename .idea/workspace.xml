@@ -20,39 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/finalModule2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/finalModule2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/FinalModule1/finalModule2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/ONTAP/b11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/ONTAP/modul1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/ONTAP/modul1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/ONTAP/modul1/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/A0222I2_HOANG.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau1/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau1/Bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau1/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau1/Bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau3/Bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau4/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau4/Bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau5/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau5/Bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau5/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau5/Bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau7/XayDungGiaoDIen.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau7/XayDungGiaoDIen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/YeuCau7/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/module1/CaseStudy/YeuCau7/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ONTAP/b10.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ONTAP/b10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss1_flowchart/BAITAP/Sơ đồ điểm TB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss1_flowchart/BAITAP/hello.text.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss1_flowchart/THUCHANH/hello.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss2_html/BAITAP/img/onthi.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss2_html/THUCHANH/hello.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ss4_VongLap/BAITAP/VongLap01/Bai2.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/demo/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/demo/demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/UngDungChuyenDoiTienTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss1_IntroductionToJava/BaiTap/UngDungDocSoThanhChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/BaiTap/dsd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/HienThiCacLoaiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/KtraSNT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/ThietKeMenuChoUngDung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/TimUocChungLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss2_Loop/ThucHanh/UngDugTinhTienLai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss1_IntroductionToJava/ThucHanh/TinhSoCanNangCuaCoThe.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss1_IntroductionToJava/ThucHanh/TinhSoCanNangCuaCoThe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +148,10 @@
       <workItem from="1652630689854" duration="290000" />
       <workItem from="1652631512333" duration="73000" />
       <workItem from="1652631679912" duration="32000" />
+      <workItem from="1652838442209" duration="374000" />
+      <workItem from="1652841526331" duration="646000" />
+      <workItem from="1652866259367" duration="198000" />
+      <workItem from="1652866574552" duration="306000" />
     </task>
     <servers />
   </component>
