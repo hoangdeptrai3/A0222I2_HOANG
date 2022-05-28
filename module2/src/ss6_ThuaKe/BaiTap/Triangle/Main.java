@@ -8,14 +8,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap canh a :" );
-        Double a = sc.nextDouble();
+        Double a = Double.parseDouble(sc.nextLine());
         System.out.println("Nhap canh b :");
-        Double b = sc.nextDouble();
+        Double b = Double.parseDouble(sc.nextLine());
         System.out.println("Nhap canh c :");
-        Double c = sc.nextDouble();
+        Double c = Double.parseDouble(sc.nextLine());
+        System.out.println("nhap color :");
+        String color = sc.nextLine();
         Triangle ip = new Triangle(a,b,c);
         System.out.println("area : " +ip.getArea());
         System.out.println("chu vi :" +ip.getPerimeter());
-        System.out.println("information : " +ip.toString());
+        System.out.println("information : " +"color :"+color  +ip.toString());
     }
 }

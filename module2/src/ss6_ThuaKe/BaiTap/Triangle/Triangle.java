@@ -2,7 +2,7 @@ package ss6_ThuaKe.BaiTap.Triangle;
 
 import java.awt.*;
 
-public class Triangle {
+public class Triangle extends Shape {
     private Double side1 = 1.0;
     private Double side2 = 1.0;
     private Double side3 = 1.0;
