@@ -4,7 +4,7 @@ public class TestCircle {
     public static void main(String[] args) {
         Circle sc = new Circle(2.0);
 //        sc.setRadius(10.0);
-        sc.getRadius();
+//        sc.getRadius();
         System.out.println("dien tich hinh tron la " +sc.getArea());
     }
 }
