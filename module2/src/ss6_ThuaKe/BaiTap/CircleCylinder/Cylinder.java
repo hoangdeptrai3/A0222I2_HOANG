@@ -9,8 +9,10 @@ public class Cylinder extends Circle {
     }
     public Cylinder(Double radius, String color, Double height){
         this.height = height;
-        setColor(color);
-        setRadius(radius);
+//        setColor(color);
+//        setRadius(radius);
+        super.setColor(color);
+        super.setRadius(radius);
     }
     public Double getTheTich(){
         return 3.14 * Math.pow(this.getRadius(),2) * this.height;

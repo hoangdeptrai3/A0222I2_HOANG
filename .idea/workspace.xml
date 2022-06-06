@@ -19,7 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="" />
+    <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ONTAP/b1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ONTAP/b1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/demo/Object2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/demo/Object2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/Triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/Triangle/Triangle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +75,11 @@
     <configuration name="TaoVaThaoTacVoiMang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/A0222I2_THAIQUANGHUYHOANG/module1/ss4_Array/Array1/THUCHANH/TaoVaThaoTacVoiMang.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.TaoVaThaoTacVoiMang.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -144,6 +167,10 @@
       <workItem from="1652875950272" duration="14000" />
       <workItem from="1653470570100" duration="529000" />
       <workItem from="1653611720448" duration="474000" />
+      <workItem from="1654093168934" duration="313000" />
+      <workItem from="1654176172603" duration="876000" />
+      <workItem from="1654321674406" duration="294000" />
+      <workItem from="1654345471811" duration="233000" />
     </task>
     <servers />
   </component>

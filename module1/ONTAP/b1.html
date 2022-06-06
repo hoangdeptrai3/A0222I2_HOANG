@@ -5,23 +5,39 @@
     <title>Title</title>
 </head>
 <body>
-<input type="text" name="" id="input">
-<button type="button" onclick="display()">Check</button>
-<div id="result"></div>
 <script>
-    let arrVn = ['xin chào','mẹ','lợn','chó','mèo','gà'];
-    let arrEng =['Hello',"mother","pig","Dog","Cat",'chicken'];
-    function display() {
-        let check = document.getElementById('input').value;
-        let result = " ";
-        for (let i = 0; i < arrVn.length;i++){
-            if (check == arrVn[i]){
-                result = arrEng[i];
-            }
-        }
-        document.getElementById('result').innerHTML=result;
+    let arr = new Array();
+    let tongChan = 0;
+    let tongLe  = 0;
+    let soLuong = 0;
+    let hieuChan = 0;
+    let hieuLe = 0;
+    do {
+        soLuong = parseInt(prompt("Nhập số lượng phần tử mảng"));
+    }while(soLuong>=50 || soLuong<=1);
+    for(let i=0; i<soLuong; i++){
+        let x = parseInt(prompt("Nhập phần tử arr[" + i + "]: "));
+        arr.push(x);
     }
-
+    for(let i=0; i<arr.length; i++){
+        if(arr[i]%2==0){
+            tongChan = tongChan + arr[i];
+        }else {
+            tongLe = tongLe + arr[i]
+        }
+    }
+    for(let i=0; i<arr.length; i++){
+        if(arr[i]%2==0){
+            hieuChan = hieuChan - arr[i];
+        }else {
+            hieuLe = hieuLe - arr[i]
+        }
+    }
+    document.write("Mảng vùa nhập là: " + arr + "<br>");
+    document.write("Tổng của số chẵn là: " + tongChan + "<br>");
+    document.write("Tổng của số lẻ là: "+ tongLe + "<br>")
+    document.write("Hiệu của số chẵn là: " + hieuChan + "<br>");
+    document.write("Hiệu của số lẻ là: "+ hieuLe )
 </script>
 </body>
 </html>
