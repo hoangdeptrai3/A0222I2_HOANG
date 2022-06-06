@@ -1,12 +1,17 @@
 package ss7_AbstractClassInterface.BaiTap.Colorable;
 
-public class Shape {
-    private String color = "red";
-    public Shape(){
+public abstract class Shape {
+    private String color;
+    private boolean filled;
 
+    public Shape() {
+        this.color = "green";
+        this.filled = true;
     }
-    public Shape(String color){
+
+    public Shape(String color, boolean filled) {
         this.color = color;
+        this.filled = filled;
     }
 
     public String getColor() {
@@ -17,10 +22,19 @@ public class Shape {
         this.color = color;
     }
 
+    public boolean isFilled() {
+        return filled;
+    }
+
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
+
+    public abstract double getPerimeter();
+
     @Override
     public String toString() {
-        return "Shape{" +
-                "color='" + getColor() + '\'' +
-                '}';
+        String isFilled= isFilled()? "filled":"not filled";
+        return "A Shape with color of "+ color+ " and "+ isFilled;
     }
 }
