@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/ss7_AbstractClassInterface/ThucHanh/Anima_Interface_Edible/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/ONTAP/b1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ONTAP/b1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/demo/Object2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss6_ThuaKe/BaiTap/Triangle/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/src/demo/Object2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/CircleCylinder/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/Triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/ss6_ThuaKe/BaiTap/Triangle/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9660170-7ebd-407a-89d7-b09cc6f3cadc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +153,7 @@
       <workItem from="1654176172603" duration="876000" />
       <workItem from="1654321674406" duration="294000" />
       <workItem from="1654345471811" duration="233000" />
+      <workItem from="1654519348606" duration="436000" />
     </task>
     <servers />
   </component>
