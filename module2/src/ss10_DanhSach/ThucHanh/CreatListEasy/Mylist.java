@@ -1,6 +1,7 @@
 package ss10_DanhSach.ThucHanh.CreatListEasy;
 
 import java.util.Arrays;
+import java.util.*;
 
 public class Mylist <E>{
     private int size = 0;

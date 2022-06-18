@@ -1,5 +1,5 @@
 package ss10_DanhSach.ThucHanh.CreatListEasy;
-
+import java.util.*;
 public class MylistTest{
     public static void main(String[] args) {
         Mylist<Integer> list = new Mylist<>();
@@ -11,8 +11,8 @@ public class MylistTest{
         System.out.println("element 1 =" + list.get(1));
         System.out.println("element 2 =" + list.get(2));
         System.out.println("element 3 =" + list.get(3));
-//        list.get(6);
-//        System.out.println("element 6: "+list.get(6));
+        list.get(6);
+        System.out.println("element 6: "+list.get(6));
 
     }
 }
