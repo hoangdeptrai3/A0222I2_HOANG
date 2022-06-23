@@ -24,7 +24,7 @@ public class ProductManager {
         System.out.print("nhap id product muon edit :");
         String idProduct = sc.nextLine();
         for (int i = 0 ;i<listProduct.size();i++){
-            if (listProduct.get(i).getIdProduct() == idProduct){
+            if (listProduct.get(i).getIdProduct().equals(idProduct) ){
                 System.out.print("new name product :");
                 String name = sc.nextLine();
                 listProduct.get(i).setNameProduct(name);
@@ -51,7 +51,7 @@ public class ProductManager {
 //    5.Tim kiem san pham theo ten
     public void searchProduct(String ten){
        for (Product sp2 : listProduct){
-           if (sp2.getNameProduct().indexOf(ten) > 0){
+           if (sp2.getNameProduct().contains(ten)){
                System.out.println("co " +sp2);
 
            }else {

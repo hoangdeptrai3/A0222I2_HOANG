@@ -41,12 +41,13 @@ public class Product implements Comparable<Product>{
         this.price = price;
     }
 
-
+//    sap xep
     @Override
     public int compareTo(Product o) {
-        return this.idProduct.compareTo(o.idProduct);
+        return idProduct.compareTo(o.idProduct);
     }
 
+//    tim kiem de xoa:
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
