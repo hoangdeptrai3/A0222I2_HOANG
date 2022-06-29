@@ -15,7 +15,7 @@ public class Main {
                     "4.sort tang dan theo gia \n"+
                     "5.sort giam dan theo gia \n"+
                     "--------------------------- \n");
-            System.out.print("please enter a number : ");
+            System.out.println("please enter a number : ");
             choose = Integer.parseInt(sc.nextLine());
 
             switch (choose){
@@ -25,7 +25,15 @@ public class Main {
                     System.out.print("enter a id book :");
                     String idBook = sc.nextLine();
                     System.out.print("enter a price book :");
-                    float priceBook = Float.parseFloat(sc.nextLine());
+                    float priceBook=0;
+                    do{
+                        try{
+                            priceBook = Float.parseFloat(sc.nextLine());
+                            break;
+                        }catch (Exception e){
+                            System.out.print("gia phai la number ");
+                        }
+                    }while (true);
                     Book sach = new Book(nameBook,idBook,priceBook);
                     textBook.addBook(sach);
                     break;
