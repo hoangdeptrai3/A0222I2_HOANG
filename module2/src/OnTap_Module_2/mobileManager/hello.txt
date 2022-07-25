@@ -1,0 +1,2 @@
+XachTay{quocGia='200', trangThai='ok', }DienThoai{id=1, price=2000.0, name='ip', nhaSanXuat='vn'}
+ChinhHang{thoiGianBaoHanh=2.0, maSoBaoHanh='d'}DienThoai{id=1, price=2.0, name='d', nhaSanXuat='d'}
