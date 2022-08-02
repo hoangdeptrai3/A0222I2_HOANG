@@ -26,7 +26,7 @@ public class Menu {
            int choose = getChoice();
             switch (choose){
                 case 1:
-                    addPhone();
+                  addPhone();
                     break;
                 case 2:
                     display();
@@ -74,6 +74,7 @@ public class Menu {
     }
 
     public static void display(){
+
         List<Phone> phones = phoneService.findAll();
         for (int i = 0;i<phones.size();i++){
             System.out.println(phones.get(i));

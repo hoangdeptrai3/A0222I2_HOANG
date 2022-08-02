@@ -84,8 +84,9 @@ values  (1, 1, 8, 1),
         join class c  
 		on s.class_id = c.id;
         -- Hiển thị thông tin học viên có điểm trung bình lớn nhất
-		select s.id,s.`name` , avg(m.mark) as 'max avg point'
-        from student s join Mark m on id = student_id
+		select s.id, s.`name` , avg(m.mark) as 'max avg point'
+        from student s join Mark m on s.id = m.student_id
         group by s.id
         having avg(Mark) >= all (select avg(Mark) from Mark group by Mark.student_id);
+        
         
