@@ -89,4 +89,4 @@ values  (1, 1, 8, 1),
         group by s.id
         having avg(Mark) >= all (select avg(Mark) from Mark group by Mark.student_id);
         
-        
+        select *from `subject`;
