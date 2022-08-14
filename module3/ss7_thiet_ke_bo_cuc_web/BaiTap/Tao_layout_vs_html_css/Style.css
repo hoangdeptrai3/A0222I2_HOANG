@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#header{
+    background-color: black;
+    height: 50px;
+}
+.header-title{
+    color: aliceblue;
+    line-height: 50px;
+}
+#nav ul li{
+    display: inline-block;
+}
+#content{
+    background-color: darkgray;
+    padding: 20px;
+}
+#content .content-p1{
+    background-color: #fff;
+    padding: 0 10px;
+}
+#content .content-p2{
+    background-color: #fff;
+    padding: 0 10px;
+}
+#content h2{
+    padding: 10px 0;
+}
+.footer{
+    background-color: black;
+}
+.footer p{
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
