@@ -1,10 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap-5.1.3/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <style>
+        .navbar{
+            background-color: white;
+        }
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+            display: block;
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .sub-header{
+            background-color: #0a53be;
+            text-align: center;
+        }
+        .sub-header a{
+            color: white;
+            margin: 0 auto;
+        }
+        .nav-item form-control me-2{
+          font-size: 20px;
+        }
+    </style>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3m1r1a1&quot;}" target="_self" style="overflow-x: visible;"><img alt="" itemprop="logo" class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="presentation" aria-hidden="true" style="overflow-x: visible;"><span itemprop="name" role="presentation" aria-hidden="true" style="overflow-x: visible;"></span></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Surface</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Computer</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Computer for business
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Shop now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Support</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <li class="nav-item form-control me-2">
+                    <a class="nav-link disabled">All Microsoft</a>
+                </li>
+                <li class="nav-item form-control me-2">
+                    <a class="nav-link disabled">Search</a>
+                </li>
+                <li class="nav-item form-control me-2">
+                    <a class="nav-link disabled">Cart</a>
+                </li>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Sign in</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="sub-header">
+    <a class="e" href="">Save big on Surface back to school deals. Shop deals >
+    </a>
+</div>
+<sidebar>
+    <video autoplay="1"  src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/bd1eda48-4f5b-42f7-9ffd-bf10c7593861/3b66781f-b1b7-41ec-84ff-abbc209f2520.mp4"></video>
+</sidebar>
+<div class="container">
+    <h1>For all the ways you create
+    </h1>
+<!--<div class="row-container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-xl-6">-->
+<!--            <video src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/0e4c2bf7-42c8-40e4-885e-73773a0765aa/4816ca8b-553b-4752-b53d-bfc271158cb9.mp4"></video>-->
+<!--        </div>-->
+<!--        <div class="col-xl-2">-->
+<!--            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" alt="">-->
+<!--        </div>-->
+<!--        <div class="col-xl-2">-->
+<!--            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" alt="">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</div>-->
+    <div class="row-container">
+        <div class="row">
+            <div class="col-xl-7">
+                <video autoplay="1" src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/0e4c2bf7-42c8-40e4-885e-73773a0765aa/4816ca8b-553b-4752-b53d-bfc271158cb9.mp4"></video>
+            </div>
+            <div class="col-xl-5">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" class="rounded float-start" alt="...">
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" class="rounded float-start" alt="...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" class="rounded float-start" alt="...">
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" class="rounded float-start" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Laptop</h1>
+        <div class="row-container-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_LaptopStudio_V1.jpg?version=8a69d61b-d985-5e88-201d-285e88f9cd6f" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_LaptopStudio_V1.jpg?version=8a69d61b-d985-5e88-201d-285e88f9cd6f" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_LaptopStudio_V1.jpg?version=8a69d61b-d985-5e88-201d-285e88f9cd6f" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_LaptopStudio_V1.jpg?version=8a69d61b-d985-5e88-201d-285e88f9cd6f" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <video autoplay ="1" src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/a78db3a2-57da-4003-a36b-93006f422299/cf0c290f-39a0-48b5-b9a8-4e0dce7830e2.mp4"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-row">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Duar Screen</h1>
+                <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Duo2_V1.jpg?version=8af63f63-8acd-65f5-a086-7471d58ac487" alt="">
+                <a href="">Surface Duo 2</a>
+            </div>
+            <div class="col-md-6">
+                <h1>All-in-One</h1>
+                <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Studio2_V1.jpg?version=49b6d46a-6bea-a95d-0ee1-13c41ace48bd" alt="">
+                <a href="">Surface Studio 2</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-row-2">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4GyKc?ver=f8b8" alt="">
+            </div>
+            <div class="col-md-4">
+                <p>Surface Laptop Go, now $349.99
+
+                    Save on the style, performance, and portability of our lightest Surface Laptop with the security and flexibility of Windows 10 Pro.</p>
+            </div>
+            <div class="col-md-4">
+                <a href="">Buy now</a>
+            </div>
+        </div>
+    </div>
+    <h1>Innovation meets inspiration</h1>
+    <div class="video">
+        <video autoplay ="1" src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/d8c4d9ab-99b3-4e51-8c4c-e107515da6ba/37386267-db31-4d26-adca-a96751f6911d.mp4"></video>
+    </div>
+    <div class="video2">
+        <video autoplay = "1" src="https://eus-streaming-video-rt-microsoft-com.akamaized.net/f946dc89-7490-4fe3-968d-9d2cbc4d0133/6dda1f78-e80a-4c60-b158-4162dcf0e12c.mp4"></video>
+    </div>
+    <div class="video3">
+        <video autoplay = "1" src="            https://eus-streaming-video-rt-microsoft-com.akamaized.net/faf14df5-e50c-4a3b-ad94-2ac3f9ec6568/ad796830-36f1-4e27-bd50-c4d445906d1d.mp4
+">
+        </video>
+    </div>
+    <footer>
+        <p style="color: white;background-color: black">* Some software, accessories, and devices sold separately.</p>
+    </footer>
+</div>
 
 </body>
 </html>
