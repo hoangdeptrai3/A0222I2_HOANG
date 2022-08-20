@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Doi_Tien_Te:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Doi_Tien_Te</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Doi_Tien_Te-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Doi_Tien_Te:war exploded" />
+    </root>
+  </artifact>
+</component>
