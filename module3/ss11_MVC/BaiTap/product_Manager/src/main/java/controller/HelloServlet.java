@@ -5,6 +5,7 @@ import sevice.IProductService;
 import sevice.impl.ProductService;
 
 import java.io.*;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
@@ -24,12 +25,41 @@ private IProductService productService = new ProductService();
                 save(request,response);
                 break;
             case "delete":
+                delete(request,response);
                 break;
+            case "findBy":
+                findBy(request,response);
             default:
                 break;
         }
 
     }
+    private void delete(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        int idDelete = Integer.parseInt(request.getParameter("deleteId"));
+        boolean check = productService.delete(idDelete);
+        String mess ="xoa thành công";
+        if (!check){
+            mess =" xoá không thành công";
+        }
+        response.sendRedirect("product");
+//        RequestDispatcher requestDispatcher = request.getRequestDispatcher("product");
+//        request.setAttribute("booktList", this.productService.findAll());
+//        try {
+//            requestDispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+    }
+
+    protected void findBy(HttpServletRequest request , HttpServletResponse response) throws IOException, ServletException {
+        String name = request.getParameter("findName");
+        List<Product> check = productService.findBy(name);
+        request.getRequestDispatcher("view/product/findBy.jsp").forward(request,response);
+    }
+
     protected void save(HttpServletRequest request, HttpServletResponse response){
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
@@ -43,7 +73,7 @@ private IProductService productService = new ProductService();
             mess ="them moi thanh cong";
             request.setAttribute("mess", mess);
         }
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("product/create.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view/product/create.jsp");
         try{
             requestDispatcher.forward(request,response);
         }catch (ServletException s){
@@ -52,6 +82,7 @@ private IProductService productService = new ProductService();
             i.printStackTrace();
         }
     }
+
 
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -67,6 +98,7 @@ private IProductService productService = new ProductService();
             case "delete":
                 // xoá
                 break;
+            case "findBy":
             default:
                 // trả về trang list
                 showListStudent(request, response);
@@ -74,7 +106,7 @@ private IProductService productService = new ProductService();
 
     }
     private void showFormCreate(HttpServletRequest request, HttpServletResponse response) {
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("product/create.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view/product/create.jsp");
         try {
             requestDispatcher.forward(request,response);
         } catch (ServletException e) {
@@ -85,7 +117,7 @@ private IProductService productService = new ProductService();
     }
 
     private void showListStudent(HttpServletRequest request, HttpServletResponse response) {
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("product/list.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view/product/list.jsp");
         request.setAttribute("bookList", this.productService.findAll());
         try {
             requestDispatcher.forward(request, response);

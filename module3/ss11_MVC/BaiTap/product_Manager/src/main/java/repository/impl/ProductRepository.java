@@ -3,7 +3,6 @@ package repository.impl;
 import model.Product;
 import repository.IProductRepository;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,14 +23,30 @@ public class ProductRepository implements IProductRepository {
         return productList;
     }
 
+
     @Override
-    public Book findBy(String name) {
-        return null;
+    public List<Product> findBy(String name) {
+        List<Product> list = new ArrayList<>();
+        for (int i = 0;i<productList.size();i++){
+            if (productList.get(i).getNameProduct().equalsIgnoreCase(name)){
+                list.add(productList.get(i));
+            }
+        }
+        return  list;
     }
 
     @Override
     public boolean add(Product product) {
         return productList.add(product);
+    }
 
+    @Override
+    public boolean delete(int id) {
+       for (int i = 0;i<productList.size();i++){
+           if (productList.get(i).getIdProduct()==id){
+               productList.remove(i);
+           }
+       }
+       return true;
     }
 }

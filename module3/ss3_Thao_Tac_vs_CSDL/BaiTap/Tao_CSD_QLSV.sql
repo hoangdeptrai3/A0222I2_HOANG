@@ -85,3 +85,4 @@ select s.name, su.name, m.mark from student s
 join mark m on s.id = m.student_id
 join subject su on m.sub_id = su.id
 order by m.mark desc, s.name;
+

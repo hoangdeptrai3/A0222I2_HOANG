@@ -5,7 +5,6 @@ import repository.IProductRepository;
 import repository.impl.ProductRepository;
 import sevice.IProductService;
 
-import java.awt.print.Book;
 import java.util.List;
 
 public class ProductService implements IProductService {
@@ -17,13 +16,19 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public Book findBy(String name) {
-        return null;
+    public List<Product> findBy(String name) {
+       return  productRepository.findBy(name);
     }
+
 
     @Override
     public boolean add(Product product) {
        productRepository.add(product);
        return true;
+    }
+
+    @Override
+    public  boolean delete(int id) {
+        return productRepository.delete(id);
     }
 }
