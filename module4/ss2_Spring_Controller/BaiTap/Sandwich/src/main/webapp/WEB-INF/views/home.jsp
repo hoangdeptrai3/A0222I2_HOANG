@@ -13,7 +13,7 @@
 <body>
 <h1>Sandwich Condiments</h1><br>
 <form action="/test" method="post">
-    <input type="checkbox" name="a" value="Lettuce" placeholder="d">Lettuce
+    <input type="checkbox" name="a" value="Lettuce">Lettuce
     <input type="checkbox" name="a" value="Tomato">Tomato
     <input type="checkbox" name="a" value="Mustard">Mustard
     <input type="checkbox" name="a" value="Sprouts">Sprouts

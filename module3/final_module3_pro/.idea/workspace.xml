@@ -9,7 +9,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbd546-20ca-4870-9901-d4b505e57151" name="Default Changelist" comment="" />
+    <list default="true" id="d1fbd546-20ca-4870-9901-d4b505e57151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module2/src/demo/hihi/src/KtraSNT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/repository/IPhoneRepositoty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/repository/impl/PhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/service/IPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/java/hoang/codegym/service/impl/PhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/demo_0310/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/java/hoang/controller/PhoneManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/java/hoang/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/demo/viu/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/java/hoang/controller/ControllerFormBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss3_Data_BInding/thucHanh/Form_dataBinding/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/repository/impl/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/java/hoang/codegym/service/imp/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/BaiTap/productManger/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/java/hoang/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/java/hoang/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/java/hoang/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/java/hoang/codegym/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/ss4_Thymeleaf/ThucHanh/Data_Manager_Customer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/PhoneManager/models/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/PhoneManager/OnTap_Module_2/PhoneManager/models/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/PhoneManager/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/PhoneManager/OnTap_Module_2/PhoneManager/view/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/mobileManager/DienThoai.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/mobileManager/OnTap_Module_2/mobileManager/DienThoai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/mobileManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module2/src/OnTap_Module_2/mobileManager/OnTap_Module_2/mobileManager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/build/libs/Sandwich-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/build/libs/Sandwich-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/ss2_Spring_Controller/BaiTap/Sandwich/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +223,8 @@
       <workItem from="1663309324614" duration="311000" />
       <workItem from="1663310014101" duration="27000" />
       <workItem from="1663332176380" duration="83000" />
+      <workItem from="1664986895036" duration="762000" />
+      <workItem from="1665113718937" duration="552000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create</h1>
+<form action="/create" method="post" th:object="${listCreate}" >
+    id          : <input th:field="*{id}"></input>
+    name        : <input th:field="*{name}"></input>
+    price       :<input th:field="*{price}"></input>
+    manufacturer:<input th:field="*{manufacturer}"></input>
+    <input type="submit" value="ADD">
+</form>
+</body>
+</html>
