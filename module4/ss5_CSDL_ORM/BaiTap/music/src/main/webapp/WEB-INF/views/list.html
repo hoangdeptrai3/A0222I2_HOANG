@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>No</th>
+    <td>id</td>
+    <th>name</th>
+    <th>artist</th>
+    <th>Kind</th>
+    <th>Link</th>
+    <th>Path</th>
+    <th>mime</th>
+  </tr>
+  <tr th:each="music,loop : ${musicList}">
+     <td th:text="${loop.count}"></td>
+    <td th:text="${music.id}"></td>
+    <td th:text="${music.name}"></td>
+    <td th:text="${music.artist}"></td>
+    <td th:text="${music.kind}"></td>
+    <td th:text="${music.link}"></td>
+    <td th:text="${music.path}"></td>
+    <td th:text="${music.mime}"></td>
+
+  </tr>
+</table>
+</body>
+</html>

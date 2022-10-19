@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BlacklistedMeaningsByMeaning</key>
+	<dict/>
+	<key>SceneWhitelist</key>
+	<array>
+		<string>Lễ tốt nghiệp</string>
+		<string>Bể cá cảnh</string>
+		<string>Đồ ăn</string>
+		<string>Trượt băng</string>
+		<string>Núi</string>
+		<string>Vách đá</string>
+		<string>Bóng rổ</string>
+		<string>Quần vợt</string>
+		<string>Đồ trang sức</string>
+		<string>Pho mát</string>
+		<string>Bóng mềm</string>
+		<string>Bóng bầu dục Mỹ</string>
+		<string>Rạp xiếc</string>
+		<string>Mô tô nước</string>
+		<string>Sân chơi</string>
+		<string>Vòng quay ngựa gỗ</string>
+		<string>Súng sơn</string>
+		<string>Lướt ván buồm</string>
+		<string>Thuyền buồm</string>
+		<string>Tắm nắng</string>
+		<string>Đập</string>
+		<string>Lò sưởi</string>
+		<string>Hoa</string>
+		<string>Lặn bình khí</string>
+		<string>Đi bộ đường dài</string>
+		<string>Động vật biển có vú</string>
+		<string>Bến tàu</string>
+		<string>Bowling</string>
+		<string>Trượt ván tuyết</string>
+		<string>Sở thú</string>
+		<string>Xe máy trượt tuyết</string>
+		<string>Rạp hát</string>
+		<string>Thuyền</string>
+		<string>Sòng bạc</string>
+		<string>Ô tô</string>
+		<string>Lặn</string>
+		<string>Đạp xe</string>
+		<string>Nhạc cụ</string>
+		<string>Trò chơi trên bàn</string>
+		<string>Lâu đài</string>
+		<string>Mặt trời lặn Mặt trời mọc</string>
+		<string>Võ thuật</string>
+		<string>Mô-tô địa hình</string>
+		<string>Tàu ngầm</string>
+		<string>Mèo</string>
+		<string>Tuyết</string>
+		<string>Lướt ván diều</string>
+		<string>Bóng quần</string>
+		<string>Giếng phun</string>
+		<string>Nhạc</string>
+		<string>Bắn cung</string>
+		<string>Sa mạc</string>
+		<string>Blackjack</string>
+		<string>Pháo hoa</string>
+		<string>Ô tô thể thao</string>
+		<string>Loài mèo</string>
+		<string>Bóng đá</string>
+		<string>Bảo tàng</string>
+		<string>Em bé</string>
+		<string>Đấu kiếm</string>
+		<string>Đường ray</string>
+		<string>Nascar</string>
+		<string>Lướt ván trên không</string>
+		<string>Chim</string>
+		<string>Trò chơi</string>
+		<string>Bóng chày</string>
+		<string>Cưỡi ngựa biểu diễn</string>
+		<string>Lặn vòi hơi</string>
+		<string>Kim tự tháp</string>
+		<string>Diều</string>
+		<string>Thuyền có mái chèo</string>
+		<string>Golf</string>
+		<string>Những môn thể thao dưới nước</string>
+		<string>Chớp</string>
+		<string>Hẻm núi</string>
+		<string>Thính phòng</string>
+		<string>Bầu trời đêm</string>
+		<string>Karaoke</string>
+		<string>Trượt tuyết</string>
+		<string>Diễu hành</string>
+		<string>Rừng</string>
+		<string>Khinh khí cầu</string>
+		<string>Múa rồng</string>
+		<string>Trứng Phục sinh</string>
+		<string>Đài tưởng niệm</string>
+		<string>Rừng nhiệt đới</string>
+		<string>Lễ tạ ơn</string>
+		<string>Ngựa đua</string>
+		<string>Sân vận động</string>
+		<string>Máy bay</string>
+		<string>Ba lê</string>
+		<string>Yoga</string>
+		<string>Rặng san hô</string>
+		<string>Môn thể thao trượt</string>
+		<string>Đấu vật</string>
+		<string>Xe đạp</string>
+		<string>Hình xăm</string>
+		<string>Công viên Giải trí</string>
+		<string>Xuồng</string>
+		<string>Cổ vũ</string>
+		<string>Bóng bàn</string>
+		<string>Câu cá</string>
+		<string>Ảo thuật</string>
+		<string>Động vật bò sát</string>
+		<string>Thể thao Mùa đông</string>
+		<string>Thác nước</string>
+		<string>Tàu hỏa</string>
+		<string>Cây cảnh</string>
+		<string>Lướt sóng</string>
+		<string>Chó</string>
+		<string>Bánh ngọt</string>
+		<string>Trượt tuyết bằng xe</string>
+		<string>Lâu đài cát</string>
+		<string>Sông băng</string>
+		<string>Hải đăng</string>
+		<string>Cưỡi ngựa</string>
+		<string>Vượt thác</string>
+		<string>Ven bờ</string>
+		<string>Khúc côn cầu</string>
+		<string>Ông già Noel</string>
+		<string>Ô tô công thức 1</string>
+		<string>Thể thao</string>
+		<string>Xe cộ</string>
+		<string>Quyền anh</string>
+		<string>Trượt patin</string>
+		<string>Dưới nước</string>
+		<string>Dàn nhạc</string>
+		<string>Lễ hội hóa trang</string>
+		<string>Hỏa tiễn</string>
+		<string>Trượt ván</string>
+		<string>Máy bay trực thăng</string>
+		<string>Biểu diễn</string>
+		<string>Lễ hội tháng Mười</string>
+		<string>Bóng nước</string>
+		<string>Sân trượt ván</string>
+		<string>Động vật</string>
+		<string>Hộp đêm</string>
+		<string>Nhạc cụ dây</string>
+		<string>Khủng long</string>
+		<string>Thể dục dụng cụ</string>
+		<string>Cricket</string>
+		<string>Núi lửa</string>
+		<string>Hồ</string>
+		<string>Cực quang</string>
+		<string>Khiêu vũ</string>
+		<string>Hòa nhạc</string>
+		<string>Leo núi đá</string>
+		<string>Khung giống như chiếc diều trong môn bay lượn</string>
+		<string>Cuộc đua tài</string>
+		<string>Cá</string>
+		<string>Nghệ thuật</string>
+		<string>Xe máy</string>
+		<string>Bóng chuyền</string>
+		<string>Lướt ván kéo</string>
+		<string>Cầu lông</string>
+		<string>Đua ô tô</string>
+		<string>Sumo</string>
+		<string>Dù kéo</string>
+		<string>Nhảy dù</string>
+		<string>Kickboxing</string>
+		<string>Hình nộm màu</string>
+		<string>Bi lắc</string>
+		<string>Xe Go Kart</string>
+		<string>Poker</string>
+		<string>Xuồng kayak</string>
+		<string>Bơi lội</string>
+		<string>Atv</string>
+		<string>Bãi biển</string>
+		<string>Bảng phi tiêu</string>
+		<string>Điền kinh</string>
+		<string>Cắm trại</string>
+		<string>Lốc xoáy</string>
+		<string>Bi-a</string>
+		<string>Bóng bầu dục</string>
+		<string>Triển lãm hàng không</string>
+	</array>
+</dict>
+</plist>

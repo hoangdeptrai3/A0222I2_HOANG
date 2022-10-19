@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>No</td>
+        <td>name</td>
+        <td>Manufacturer</td>
+    </tr>
+    <tr th:each=" phone,loop : ${phoneList}">
+        <td th:text="${loop.count}"></td>
+        <td th:text="${phone.name}"></td>
+        <td th:text="${phone.manufacturer}"></td>
+    </tr>
+</table>
+</body>
+</html>
