@@ -16,10 +16,7 @@
 </head>
 <body>
 <a href="/create">Add</a>
-<form method="get" action="/search">
-    <input type="text" placeholder="name search" name="id">
-    <button type="submit">search</button>
-</form>
+<span>Search</span>
 <table >
     <tr>
         <th>No</th>
@@ -29,7 +26,7 @@
         <th>Delete</th>
         <th>Edit</th>
     </tr>
-    <tr th:each="product,loop : ${listProduct}">
+    <tr th:each="product,loop : ${productPage.content}">
         <td th:text="${loop.count}"></td>
         <td th:text="${product.name}"></td>
         <td th:text="${product.price}"></td>
@@ -42,5 +39,16 @@
         </td>
     </tr>
 </table>
+<span>
+    <a th:if="${productPage.hasPrevious()}" th:href="@{/list-page(page=${productPage.number}-1)}">previous</a>
+</span>
+<span>
+    <a th:if="${productPage.hasNext}" th:href="@{/list-page(page=${productPage.number}+1)}">Next</a>
+</span>
+<p>
+    <span th:each="pageNo : ${#numbers.sequence(0,productPage.totalPages-1)}">
+                <a th:href="@{/list-page(page = ${pageNo})}" th:text="${pageNo}"></a>
+    </span>
+</p>
 </body>
 </html>
