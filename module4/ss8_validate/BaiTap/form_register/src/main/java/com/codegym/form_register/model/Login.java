@@ -21,9 +21,11 @@ public class Login {
     @Column(name ="name")
     private String name;
     @Min(18)
+    @NotNull(message = "Name không được để null")
     @Column(name = "age")
     private Integer age;
     @Email
+    @NotEmpty(message = "name không được để trống")
     @Column(name = "email")
     private String email;
 
