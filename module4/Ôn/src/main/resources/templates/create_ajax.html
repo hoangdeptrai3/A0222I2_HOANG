@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+<body>
+<a href="/rest">Bach</a>
+<h1>ADD AJAX</h1>
+<p id ="result"></p>
+<P id = "errPoint"></P>
+name :        <input type="text" id="name"><br>
+  price:        <input type="text" id="price"><br>
+  manufacturer: <input type="text" id = "manufacturer"><br>
+  quantity    : <input type="text" id = "quantity"><br>
+<select name="" id="kindBook">
+    <option th:each="kindBook : ${kindBook}"
+            th:value="${kindBook.id}"
+            th:text="${kindBook.loaiSach}">
+    </option>
+</select><br>
+  <input type="button" value="Add" id="btn-click">
+</body>
+<script>
+        $(document).ready(function (){
+          $('#btn-click').click(function (event){
+            var name = document.getElementById('name').value;
+            var price = document.getElementById('price').value;
+            var manufacturer = document.getElementById('manufacturer').value;
+            var quantity = document.getElementById('quantity').value;
+            var kindBook = document.getElementById('kindBook').value;
+            var jsonObject = {"name":name,
+                "price":price,
+                "manufacturer":manufacturer,
+                "quantity":quantity,"kindBook":kindBook};
+              console.log(jsonObject)
+            $.ajax({
+              headers : {
+                'Accept' : 'application/json',
+                'Content-Type': 'application/json'
+              },
+              type : "post",
+              url : "http://localhost:8080/rest/create",
+              data: JSON.stringify(jsonObject),
+              success : function (book){
+                var content = "";
+                content = "<span>ADD</span>";
+                content += " " +book.name + " success";
+                document.getElementById('result').innerHTML = content;
+              },
+              error : function(){
+                  if(event.status == 400) {
+                      document.getElementById("errPoint").innerText =event.responseJSON.price;
+                  }
+              }
+            })
+          })
+        })
+</script>
+</html>

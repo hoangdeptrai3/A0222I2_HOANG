@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Manufacturer</th>
+        <th>Quantity</th>
+        <th>Kind Book</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="book,loop : ${bookList}">
+        <td th:text="${loop.count}"></td>
+        <td th:text="${book.name}"></td>
+        <td th:text="${book.price}"></td>
+        <td th:text="${book.manufacturer}"></td>
+        <td th:text="${book.quantity}"></td>
+        <td th:text="${book.kindBook.loaiSach}"></td>
+
+
+        </td>
+</table>
+</body>
+</html>

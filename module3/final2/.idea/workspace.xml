@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207c06e1-96dc-4fbc-83b5-788126217845" name="Default Changelist" comment="" />
+    <list default="true" id="207c06e1-96dc-4fbc-83b5-788126217845" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/java/book/codegym/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/java/book/codegym/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/java/book/codegym/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/java/book/codegym/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/java/book/codegym/service/impl/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/Ôn/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,17 +77,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="examp:war exploded">
@@ -184,6 +183,8 @@
       <workItem from="1662949698441" duration="706000" />
       <workItem from="1662980546239" duration="979000" />
       <workItem from="1663331187361" duration="477000" />
+      <workItem from="1667217285099" duration="1823000" />
+      <workItem from="1667223681507" duration="1274000" />
     </task>
     <servers />
   </component>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="94c66e80-f256-4961-af48-a26eaaf9b7f0" name="Default Changelist" comment="" />
+    <list default="true" id="60cebb0a-d2f7-4e47-a804-26cea2bce200" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/java/book/codegym/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/java/book/codegym/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/java/book/codegym/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/java/book/codegym/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/java/book/codegym/service/impl/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module4/Ôn/src/main/resources/templates/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="2EdCQ7g6JX0lk9nNh4XG0U1XgpN" />
+  <component name="ProjectId" id="2GtoIwvfKZLzslr2KvapPIhSZoo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,14 +34,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="94c66e80-f256-4961-af48-a26eaaf9b7f0" name="Default Changelist" comment="" />
-      <created>1662916056085</created>
+      <changelist id="60cebb0a-d2f7-4e47-a804-26cea2bce200" name="Default Changelist" comment="" />
+      <created>1667217165033</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662916056085</updated>
-      <workItem from="1662916057706" duration="150000" />
-      <workItem from="1663331041746" duration="95000" />
-      <workItem from="1663331765127" duration="284000" />
+      <updated>1667217165033</updated>
+      <workItem from="1667217166657" duration="27000" />
     </task>
     <servers />
   </component>
