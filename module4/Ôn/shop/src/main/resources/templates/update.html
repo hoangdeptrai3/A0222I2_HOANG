@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/create" method="post" th:object="${listCreate}">
+    <p th:hidden="*{id == null}">
+        id: <input th:field="*{id}" th:readonly="*{id != null}" >
+    </p>
+    Mã giao dịch   :  <input th:field = "*{maGD}"><br>
+    <p style="color: red" th:if="${#fields.hasErrors('maGD')}" th:errors = "*{maGD}"></p>
+    Tên Khách hàng :
+    <select th:field="*{KhachHang}">
+        <option th:each="l : ${listKH}"
+                th:value="${l.id}"
+                th:text="${l.name}">
+        </option>
+    </select>
+<br>
+    Loại dịch vụ   :      <input th:field = "*{loaiDV}"><br>
+<!--    <p style="color: red" th:if="${#fields.hasErrors('name')}" th:errors = "*{name}"></p>-->
+    Ngày giao dịch :      <input th:field = "*{ngayGD}"><br>
+    <p style="color: red" th:if="${#fields.hasErrors('ngayGD')}" th:errors = "*{ngayGD}"></p>
+    Đơn giá        :      <input th:field = "*{donGia}"><br>
+    Diện tich      :      <input th:field = "*{dienTich}"><br>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>

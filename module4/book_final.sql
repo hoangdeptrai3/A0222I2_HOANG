@@ -1,0 +1,1 @@
+SELECT * FROM book_final.loai_sach;

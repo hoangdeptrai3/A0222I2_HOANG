@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<a href="/home">back</a>
+<p id ="result"></p>
+<P id = "errPoint"></P>
+name :        <input type="text" id="name"><br>
+price:        <input type="text" id="price"><br>
+<select name="" id="kindPhone">
+    <option th:each="ls : ${kindPhone}"
+            th:value="${ls.id}"
+            th:text="${ls.name}">
+    </option>
+</select><br>
+<input type="button" value="Add" id="btn-click">
+</body>
+<script>
+    $(document).ready(function (){
+        $('#btn-click').click(function (event){
+            var name = document.getElementById('name').value;
+            var price = document.getElementById('price').value;
+            var kindPhone = document.getElementById('kindPhone').value;
+            var jsonObject = {"name":name,
+                "price":price,
+                "kindPhone":kindPhone};
+            console.log(jsonObject)
+            $.ajax({
+                headers : {
+                    'Accept' : 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type : "post",
+                url : "http://localhost:8080/rest/create",
+                data: JSON.stringify(jsonObject),
+                success : function (phone){
+                    var content = "";
+                    content = "<span>ADD</span>";
+                    content += " " +phone.name + " success";
+                    document.getElementById('result').innerHTML = content;
+                },
+                error : function(){
+                    if(event.status == 400) {
+                        document.getElementById("errPoint").innerText =event.responseJSON.price;
+                    }
+                }
+            })
+        })
+    })
+</script>
+</html>

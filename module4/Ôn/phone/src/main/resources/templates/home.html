@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table tr td{
+            border: 1px solid #0000;
+        }
+    </style>
+</head>
+<body>
+<form action="/search" method="post">
+    <input type="text" name="name">
+    <button type="submit">Search</button>
+</form>
+<a href="/rest/create">Add new</a>
+<table>
+    <tr>
+
+        <th>No</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Loaisach</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="book,loop : ${listBook}">
+        <td th:text="${loop.count}"></td>
+        <td th:text="${book.name}"></td>
+        <td th:text="${book.price}"></td>
+        <td th:text="${book.loaiSach.name}"></td>
+        <td>
+            <a th:href="@{/book/{id}/edit(id = ${book.getId()})}">Edit</a>
+            <a th:href="@{/book/{id}/delete(id = ${book.getId()})}">Delete</a>
+        </td>
+    </tr>
+</table>
+<span>
+    <a th:if="${listBook.hasPrevious()}" th:href="@{/home(page=${listBook.number}-1)}">previous</a>
+</span>
+<span>
+    <a th:if="${listBook.hasNext}" th:href="@{/home(page=${listBook.number}+1)}">Next</a>
+</span>
+<p>
+    <span th:each="pageNo : ${#numbers.sequence(0,listBook.totalPages-1)}">
+                <a th:href="@{/home(page = ${pageNo})}" th:text="${pageNo}"></a>
+    </span>
+</p>
+
+</body>
+</html>

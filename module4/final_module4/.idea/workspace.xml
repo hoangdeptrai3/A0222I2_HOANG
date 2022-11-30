@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29566d1f-3807-453b-92fe-c24e19481caf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/final/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/model/QuestionContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/model/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/repository/QuestionContentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/repository/QuestionTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/service/IQuestionContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/service/IQuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/service/impl/QuestionContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/com/example/service/impl/QuestionTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/DTO/PhoneDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/controller/PhoneRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/controller/Phonecontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/model/KindPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/repository/KindPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/repository/PhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/sẻvice/IKindPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/sẻvice/IPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/sẻvice/impl/KindphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/java/com/example/mobile/sẻvice/impl/PhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/resources/templates/create_jax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/mobile/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/controller/BookRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/dto/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/model/LoaiSach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/repository/LoaiSachRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/service/ILoaiSachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/service/impl/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/java/com/example/phone/service/impl/LoaiSachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/resources/templates/create_Ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/phone/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/service/impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/java/com/example/product/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/product/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/controller/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/model/Loai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/model/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/repository/LoaiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/repository/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/service/ILoaiShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/service/IShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/service/impl/LoaiShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/java/com/example/shop/service/impl/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ôn/shop/src/main/resources/templates/update.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2I1hva3ZY4qkVePttZYphrHPxwQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29566d1f-3807-453b-92fe-c24e19481caf" name="Default Changelist" comment="" />
+      <created>1669355227944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669355227944</updated>
+      <workItem from="1669355229482" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
