@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="form-demo">
+    <form [formGroup]="formCreate" (ngSubmit)="submitForm()" >
+      <label>id</label><br>
+      <input formControlName = "id" type="text" name="id" class="form-control" required><br>
+      <p style="color: red" *ngIf="formCreate.controls.id.hasError('required') && formCreate.controls.id.touched ">id ko dc trong</p>
+      <p style="color: red" *ngIf="formCreate.controls.id.hasError('min')">id phai lon hon 0</p>
+      <label for="">Name</label><br>
+      <input formControlName = "name" type="text" name="name" class="form-control" required><br>
+      <p style="color: red" *ngIf="formCreate.controls.name.hasError('minlength') && formCreate.controls.name.touched ">Tên ko nhỏ hơn 5</p>
+      <p style="color: red" *ngIf="formCreate.controls.name.hasError('required') && formCreate.controls.name.touched ">name ko dc trong</p>
+      <label for="">age</label><br>
+      <input formControlName = "age" type="text" name="age" class="form-control" required><br>
+      <label for="">gender</label><br>
+      <input formControlName = "gender" type="text" name="gender" class="form-control" required><br>
+      <button type="submit">ADD</button>
+    </form>
+  </div>
+</div>
+

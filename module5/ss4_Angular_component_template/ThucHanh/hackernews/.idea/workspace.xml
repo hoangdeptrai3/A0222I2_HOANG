@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a5dd31e-fc5f-4dee-9895-f4433a0f51f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1/ThucHanh/KhaiBao_SuDungBien/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/.idea/calucator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/calculator-angular/calculator-angular.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/calculator-angular/calculator-angular.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/calculator-angular/calculator-angular.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/app/calculator-angular/calculator-angular.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/calucator/calculator/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/.idea/color-picker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/color-picker/color-picker.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/color-picker/color-picker.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/color-picker/color-picker.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/app/color-picker/color-picker.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/BaiTap/color-picker/color-picker-app/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/.idea/dispay-bootrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/bootrap-using/bootrap-using.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/bootrap-using/bootrap-using.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/bootrap-using/bootrap-using.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/app/bootrap-using/bootrap-using.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/dispay-bootrap/angular-using-bootstrap/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/.idea/font-change.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/app/font-size-editor/font-size-editor.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/app/font-size-editor/font-size-editor.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/app/font-size-editor/font-size-editor.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/app/font-size-editor/font-size-editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_angular/ThucHanh/font-change/font-size-change/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IaPQooaWGxUJNTrxRcLdMuOljd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/huyhoanghoangicloud.com/Desktop/codegym/A0222I2_THAIQUANGHUYHOANG/module5/ss4_Angular_component_template/ThucHanh/hackernews/hackernews-vip/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a5dd31e-fc5f-4dee-9895-f4433a0f51f2" name="Changes" comment="" />
+      <created>1670416707992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670416707992</updated>
+      <workItem from="1670416709398" duration="2259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
