@@ -1,0 +1,17 @@
+
+<div class="form-content">
+  <div class="form-vip">
+    <form [formGroup]="loginForm" (ngSubmit)="submitForm()">
+      <label>Email</label><br>
+      <input formControlName = "email" type="text" name="email" required><br>
+      <p style="color: red" *ngIf="loginForm.controls.email.hasError('required') && loginForm.controls.email.touched">Email not empty</p>
+      <p style="color: red" *ngIf="loginForm.controls.email.hasError('email')">email phai dung dinh dang</p>
+      <label>Password</label><br>
+      <input formControlName = "password" type="text" name ="password" required><br>
+      <p style="color: red" *ngIf="loginForm.controls.password.hasError('required') && loginForm.controls.password.touched">Password not empty</p>
+      <p style="color: red" *ngIf="loginForm.controls.password.hasError('minlength')">password must more than 6 character</p>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
