@@ -1,0 +1,33 @@
+<p>list-student works!</p>
+<table>
+  <tr>
+    <th>No</th>
+    <th>id</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Point</th>
+    <th>Result</th>
+  </tr>
+  <tr *ngFor="let itemp of students;let i  = index">
+    <td>{{i+1}}</td>
+    <td>{{itemp.id}}</td>
+    <td>{{itemp.name}}</td>
+    <td>{{itemp.age}}</td>
+    <td [ngSwitch]="itemp.gender">
+      <span *ngSwitchCase="0">Girl</span>
+      <span *ngSwitchCase="1">Boy</span>
+      <span *ngSwitchDefault>Other</span>
+    </td>
+    <td>{{itemp.point}}</td>
+    <td>
+      <span *ngIf="itemp.point > 7;else elseBlock ">pass</span>
+      <ng-template #elseBlock>
+        <span>fail</span>
+      </ng-template>
+    </td>
+  </tr>
+</table>
+<!--<app-create-student></app-create-student>-->
+<!--<app-create (createChild) = save($event)></app-create>-->
+

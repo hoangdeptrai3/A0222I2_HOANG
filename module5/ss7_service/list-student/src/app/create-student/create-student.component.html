@@ -1,0 +1,15 @@
+<p>create-student works!</p>
+
+<form [formGroup]="createStudent" (ngSubmit)="submitStudent">
+  <label>id</label><br>
+  <input formControlName = "id" type="text" name="id" required><br>
+  <label>name</label><br>
+  <input formControlName = "name" type="text" name="name" required><br>
+  <label>age</label><br>
+  <input formControlName = "age" type="text" name="age" required><br>
+  <label>gender</label><br>
+  <input formControlName = "gender" type="text" name="gender" required><br>
+  <label>point</label><br>
+  <input formControlName = "point" type="text" name="point" required><br>
+  <button type = "submit">ADD</button>
+</form>
