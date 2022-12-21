@@ -1,0 +1,8 @@
+.navbar-custom {
+  background-color: #046056;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand {
+  color: #f9f9f9;
+}
