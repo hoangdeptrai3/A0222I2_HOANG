@@ -48,9 +48,9 @@ export class ProductService {
     }
   }
 
-  deleteProduct(id: number) {
+  deleteProduct(id) {
     this.products = this.products.filter(product => {
-      return product.id !== id;
+      return product.id != id;
     })
   }
 
