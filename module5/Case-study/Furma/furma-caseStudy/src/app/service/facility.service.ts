@@ -34,6 +34,9 @@ export class FacilityService {
   set facility(value: Facility[]) {
     this.facilities = value;
   }
+  findAll() {
+    return this.facilities;
+  }
 
   save(facility: Facility) {
     facility.image = facility.image.split('\\')[2];
@@ -47,7 +50,5 @@ export class FacilityService {
     // return this.facilities.indexOf(id - 1);
   }
 
-  findAll() {
-    return this.facilities;
-  }
+
 }

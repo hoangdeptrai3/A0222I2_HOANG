@@ -6,10 +6,10 @@ import {Contract} from "../model/contract";
 })
 export class ContractService {
   private contracts: Contract[] = [
-    {id: 1, code: 'HD001', startDate: '2022-12-06', endDate: '2022-12-06', downPayment: 120000, totalPayment: 300000},
-    {id: 2, code: 'HD002', startDate: '2022-12-06', endDate: '2022-12-06', downPayment: 560000, totalPayment: 620000},
-    {id: 3, code: 'HD003', startDate: '2022-12-06', endDate: '2022-12-06', downPayment: 250000, totalPayment: 850000},
-    {id: 4, code: 'HD004', startDate: '2022-12-06', endDate: '2022-12-06', downPayment: 350000, totalPayment: 360000},
+    {id: 1, code: 'CH001', startDate: '2022-10-08', endDate: '2022-11-16', downPayment: 11000, totalPayment: 32000},
+    {id: 2, code: 'CH002', startDate: '2022-11-16', endDate: '2022-11-16', downPayment: 11000, totalPayment: 32600},
+    {id: 3, code: 'CH003', startDate: '2022-12-11', endDate: '2022-11-16', downPayment: 11000, totalPayment: 15400},
+    {id: 4, code: 'CH004', startDate: '2022-09-03', endDate: '2022-11-16', downPayment: 11000, totalPayment: 48000},
   ];
 
   constructor() {
