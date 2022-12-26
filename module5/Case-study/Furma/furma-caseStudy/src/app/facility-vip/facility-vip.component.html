@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="mt-2">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+      Create Service
+    </button>
+  </div>
+
+  <div class="row">
+    <div class="card col-3" *ngFor="let item of facilities">
+      <div>
+        <img [src]="item.image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">House size: {{item.area}} m2</p>
+          <button (click)="edit(item.id)" type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modelId2">
+            Edit
+          </button>
+          <button (click)="deleteFacility(item.id, item.name)" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modelId3">
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<app-create-facility></app-create-facility>
+<app-update-facility *ngIf="facility" [editFacility] = "facility"></app-update-facility>
+
+<app-delete-facility [deleteFacility]="facilityName"></app-delete-facility>

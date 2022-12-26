@@ -1,0 +1,91 @@
+<!-- Modal -->
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create Customer</h5>
+      </div>
+
+      <div class="modal-body">
+        <form [formGroup]="customerFormCreate" (ngSubmit)="createCustomer()">
+          <div class="form-group">
+            <label>Mã Khách hàng: </label>
+            <input formControlName="code" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.code.touched && customerFormCreate.controls.code.hasError('required')">code is not null</span>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.code.touched && customerFormCreate.controls.code.hasError('pattern')">code is not format</span>
+          </div>
+
+          <div class="form-group">
+            <label>Name: </label>
+            <input formControlName="name" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.name.touched && customerFormCreate.controls.name.hasError('required')">name is not null</span>
+          </div>
+
+          <div class="form-group">
+            <label>DOB: </label>
+            <input formControlName="dob" type="date" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.dob.touched && customerFormCreate.controls.dob.hasError('required')">dob is not null</span>
+          </div>
+
+          <div class="form-group">
+            <label>Gender: </label>
+            <input formControlName="gender" type="radio" value="0" class="form-group">Female
+            <input formControlName="gender" type="radio" value="1" class="form-group">male
+            <input formControlName="gender" type="radio" value="2" class="form-group">LGBT
+          </div>
+
+          <div class="form-group">
+            <label>CCCD: </label>
+            <input formControlName="cccd" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.cccd.touched && customerFormCreate.controls.cccd.hasError('required')">cccd is not null</span>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.cccd.touched && customerFormCreate.controls.cccd.hasError('pattern')">cccd is not format</span>
+          </div>
+
+          <div class="form-group">
+            <label>Phone: </label>
+            <input formControlName="phone" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.phone.touched && customerFormCreate.controls.phone.hasError('required')">phone is not null</span>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.phone.touched && customerFormCreate.controls.phone.hasError('pattern')">phone is not format</span>
+          </div>
+
+          <div class="form-group">
+            <label>Email: </label>
+            <input formControlName="email" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.email.touched && customerFormCreate.controls.email.hasError('required')">email is not null</span>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.email.touched && customerFormCreate.controls.email.hasError('email')">email is not format</span>
+
+          </div>
+
+          <div class="form-group">
+            <label>Type: </label>
+            <input formControlName="type" type="radio" value="diamond" class="form-group">Diamond
+            <input formControlName="type" type="radio" value="gold" class="form-group">Gold
+            <input formControlName="type" type="radio" value="silver" class="form-group">Silver
+          </div>
+
+          <div class="form-group">
+            <label>Address: </label>
+            <input formControlName="address" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="customerFormCreate.controls.address.touched && customerFormCreate.controls.address.hasError('required')">address is not null</span>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn bg-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

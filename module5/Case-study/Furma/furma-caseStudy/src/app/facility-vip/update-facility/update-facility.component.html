@@ -1,0 +1,56 @@
+<div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Facility</h5>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="facilityFormEdit" (ngSubmit)="editFacility()">
+          <div class="form-group">
+            <label>Tên dịch vụ: </label>
+            <input formControlName="name" type="text" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="facilityFormEdit.controls.name.touched && facilityFormEdit.controls.name.hasError('required')">name is not null</span>
+
+          </div>
+
+          <div class="form-group">
+            <label>Diện tích: </label>
+            <input formControlName="area" type="number" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="facilityFormEdit.controls.area.touched && facilityFormEdit.controls.area.hasError('required')">area is not null</span>
+
+          </div>
+
+          <div class="form-group">
+            <label>Giá: </label>
+            <input formControlName="price" type="number" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="facilityFormEdit.controls.price.touched && facilityFormEdit.controls.price.hasError('required')">price is not null</span>
+
+          </div>
+
+          <div class="form-group">
+            <label>Số lượng người: </label>
+            <input formControlName="maximum" type="number" class="form-group" required>
+            <span style="color: red"
+                  *ngIf="facilityFormEdit.controls.maximum.touched && facilityFormEdit.controls.maximum.hasError('required')">maximum is not null</span>
+
+          </div>
+
+          <div class="form-group">
+            <label>Loại: </label>
+            <input formControlName="type" type="radio" value="luxury" class="form-group">Luxury
+            <input formControlName="type" type="radio" value="min" class="form-group">Min
+            <input formControlName="type" type="radio" value="flex" class="form-group">Flex
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn bg-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
