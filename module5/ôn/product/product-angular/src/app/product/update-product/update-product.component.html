@@ -1,0 +1,15 @@
+<form [formGroup]="productForm" (ngSubmit)="submitProduct()">
+<!--  <label for="">id</label><br>-->
+  <input formControlName="id" type="text" name="" hidden><br>
+  <label for="">name</label><br>
+  <input formControlName="name" type="text" name=""><br>
+  <label for="">price</label><br>
+  <input formControlName="price" type="text" name=""><br>
+  <label for="">Category</label><br>
+  <select formControlName="category" name="a">
+    <option *ngFor="let check of categoryList" value="{{check.id}}">
+    {{check.name}}
+    </option>
+  </select>
+  <button type="submit">Ok</button>
+</form>

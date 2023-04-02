@@ -1,0 +1,38 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "name": "ao",
+      "price": 1000,
+      "category": 2
+    },
+    {
+      "id": 3,
+      "name": "ao",
+      "price": 1000,
+      "category": 1
+    },
+    {
+      "id": 4,
+      "name": "quan",
+      "price": "777",
+      "category": "1"
+    },
+    {
+      "id": 5,
+      "name": "aaa",
+      "price": "777",
+      "category": "2"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "real"
+    },
+    {
+      "id": 2,
+      "name": "fake"
+    }
+  ]
+}

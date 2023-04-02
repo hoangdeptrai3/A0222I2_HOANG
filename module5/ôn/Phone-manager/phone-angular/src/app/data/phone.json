@@ -1,0 +1,32 @@
+{
+  "phone": [
+    {
+      "id": 5,
+      "name": "hoang",
+      "price": "12",
+      "category": "2"
+    },
+    {
+      "id": 6,
+      "name": "ddsdsd",
+      "price": "2000",
+      "category": "2"
+    },
+    {
+      "id": 7,
+      "name": "nokia",
+      "price": "888",
+      "category": "2"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "chinh hang"
+    },
+    {
+      "id": 2,
+      "name": "xach tay"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<form [formGroup]="formPhone" (ngSubmit)="submitPhone()">
+  <input formControlName = "id" name="id" type="text" hidden><br>
+
+  <label for="">name</label><br>
+  <input formControlName = "name" name="name" type="text" required><br>
+  <p style="color: red" *ngIf="formPhone.controls.name.hasError('required') && formPhone.controls.name.touched">
+    Not empty
+  </p>
+  <p style="color: red" *ngIf="formPhone.controls.name.hasError('minlength')">must than 5 character</p>
+
+  <label for="">price</label><br>
+  <input formControlName = "price" name="price" type="text"><br>
+  <p style="color: red" *ngIf="formPhone.controls.price.hasError('required') && formPhone.controls.price.touched">
+    Not empty
+  </p>
+  <p style="color: red" *ngIf="formPhone.controls.price.hasError('min')">must more than 1</p>
+
+  <label for="">category</label><br>
+ <select formControlName = "category" name="category">
+   <option *ngFor="let check of categoryList" value="{{check.id}}">
+     {{check.name}}
+   </option>
+ </select><br>
+  <p style="color: red" *ngIf="formPhone.controls.category.hasError('required') && formPhone.controls.category.touched">
+    Not empty
+  </p>
+  <button type = "submit">ok</button>
+</form>
