@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    <tr th:each="phone,loop : ${listPhone}">
+        <td th:text="${loop.count}"></td>
+        <td th:text="${phone.name}"></td>
+        <td th:text="${phone.price}"></td>
+    </tr>
+</table>
 </body>
 </html>

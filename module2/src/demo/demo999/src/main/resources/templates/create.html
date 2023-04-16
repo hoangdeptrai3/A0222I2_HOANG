@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<form action="/create" method="post" th:object="${createPhone}">
+    id : <input type="text" th:field ="*{id}"><br>
+    Name : <input type="text" th:field ="*{name}"><br>
+    Price : <input type="text" th:field ="*{price}"><br>
+    <button type="submit">OK</button>
+</form>
 </body>
 </html>

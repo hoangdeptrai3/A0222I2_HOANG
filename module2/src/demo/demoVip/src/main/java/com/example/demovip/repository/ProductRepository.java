@@ -1,4 +1,7 @@
 package com.example.demovip.repository;
 
-public interface ProductRepository extends org.springframework.data.jpa.repository.JpaRepository<com.example.demovip.model.Product, java.lang.Long> {
+import com.example.demovip.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }

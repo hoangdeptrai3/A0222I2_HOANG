@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<a href="/create">ADD</a>
+<table>
+    <tr>
+        <th>No</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="phone,loop : ${listPhone}">
+        <td th:text="${loop.count}"></td>
+        <td th:text="${phone.id}"></td>
+        <td th:text="${phone.name}"></td>
+        <td th:text="${phone.price}"></td>
+        <td>
+            <span>
+                <a th:href="@{/phone/{id}/edit(id = ${phone.getId()})}">EDIT</a>
+                <a th:href="@{/phone/{id}/delete(id = ${phone.getId()})}">DELETE</a>
+            </span>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
